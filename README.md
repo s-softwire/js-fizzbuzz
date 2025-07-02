@@ -24,3 +24,9 @@ What does this command do?
 `npx` is a tool that allows you to run node packages from the command line.
 `ts-node` is a tool that allows you to run typescript code from the command line.
 So we are using npx to run ts-node to run our typescript file
+
+## Task notes
+
+Extension 1 : Program changed so that each rule we want to implement must be specified by its corresponding divisor
+### How to specify command-line options
+```npx ts-node fizzbuzz.ts  3 5 7 11 13 17```
