@@ -26,7 +26,7 @@ function fizzbuzz() :void {
         }
 
         // generating final message
-        if (messages.toString() === (new Array(5)).toString()) {
+        if (!messages.some(x=>x)) { // condition: if none of the elements of messages are defined
             message = i.toString();
         }
         else {
